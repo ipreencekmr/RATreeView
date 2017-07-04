@@ -19,17 +19,38 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MCLabPGT.h"
+
+typedef NS_ENUM(NSInteger,LabObjNature) {
+    kLabObjNaturePackage = 0,
+    kLabObjNatureGroup,
+    kLabObjNatureTest
+};
 
 @interface RADataObject : NSObject
 
-@property (strong, nonatomic) NSString *name;
-@property (strong, nonatomic) NSArray *children;
+@property (nonatomic, assign) LabObjNature labTestNature;
+
+@property (nonatomic, strong) NSString *labTestName;
+
+@property (nonatomic, strong) NSString *labTestId;
+
+@property (nonatomic, strong) NSString *labTestCost;
+
+@property (nonatomic, strong) NSString *labTestInsId;
+
+@property (nonatomic, strong) NSString *labTestInstruction;
+
+@property (nonatomic, strong) NSArray *children;
+
+@property (nonatomic, assign) BOOL selected;
 
 - (id)initWithName:(NSString *)name children:(NSArray *)array;
 
 + (id)dataObjectWithName:(NSString *)name children:(NSArray *)children;
 
 - (void)addChild:(id)child;
+
 - (void)removeChild:(id)child;
 
 @end

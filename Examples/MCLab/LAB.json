@@ -1,0 +1,1044 @@
+{
+    "data": {
+        "package": [
+                    {
+                    "cost": 200,
+                    "pkgId": 71,
+                    "pkgName": "Dr. Papa Rao N",
+                    "groupList": [
+                                  {
+                                  "cost": 200,
+                                  "grpId": 173,
+                                  "grpName": "Dr. Papa Rao N",
+                                  "testList": [
+                                               {
+                                               "cost": 200,
+                                               "testId": 515,
+                                               "testInsId": 1,
+                                               "testName": "Hemogram",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 516,
+                                               "testInsId": 1,
+                                               "testName": "T3,T4,TSH-Thyroid Function List",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 517,
+                                               "testInsId": 1,
+                                               "testName": "RFT-Renal function Test",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 518,
+                                               "testInsId": 1,
+                                               "testName": "LFT-Liver function Test",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 519,
+                                               "testInsId": 1,
+                                               "testName": "viral screen",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 520,
+                                               "testInsId": 1,
+                                               "testName": "CXR-Chest Xray",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 521,
+                                               "testInsId": 1,
+                                               "testName": "USG",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 522,
+                                               "testInsId": 1,
+                                               "testName": "Widal",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 523,
+                                               "testInsId": 1,
+                                               "testName": "FBS-Fasting Blood Sugar",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 524,
+                                               "testInsId": 1,
+                                               "testName": "CHE",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 527,
+                                               "testInsId": 1,
+                                               "testName": "C reactive protein(CRP)",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 528,
+                                               "testInsId": 1,
+                                               "testName": "Surgical profile (minor)",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 530,
+                                               "testInsId": 1,
+                                               "testName": "TKR(Package)",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 531,
+                                               "testInsId": 1,
+                                               "testName": "complete blood picture-CBP",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 540,
+                                               "testInsId": 1,
+                                               "testName": "ECG",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 541,
+                                               "testInsId": 1,
+                                               "testName": "MRI",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 542,
+                                               "testInsId": 1,
+                                               "testName": "Lipid Profile",
+                                               "testInstruction": "Instructions"
+                                               }
+                                               ]
+                                  }
+                                  ],
+                    "testList": [
+                                 {
+                                 "cost": 150,
+                                 "testId": 549,
+                                 "testInsId": 1,
+                                 "testName": "CT Brain - Plain",
+                                 "testInstruction": "Instructions"
+                                 },
+                                 {
+                                 "cost": 250,
+                                 "testId": 559,
+                                 "testInsId": 1,
+                                 "testName": "Sugar Test",
+                                 "testInstruction": "Instructions"
+                                 },
+                                 {
+                                 "cost": 250,
+                                 "testId": 560,
+                                 "testInsId": 1,
+                                 "testName": "Urine test",
+                                 "testInstruction": "Instructions"
+                                 }]
+                    },
+                    {
+                    "cost": 200,
+                    "pkgId": 72,
+                    "pkgName": "Dr. Vedeshvi Rao",
+                    "groupList": [
+                                  {
+                                  "cost": 200,
+                                  "grpId": 174,
+                                  "grpName": "Dr. Vedeshvi Rao",
+                                  "testList": [
+                                               {
+                                               "cost": 200,
+                                               "testId": 515,
+                                               "testInsId": 1,
+                                               "testName": "Hemogram",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 517,
+                                               "testInsId": 1,
+                                               "testName": "RFT-Renal function Test",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 531,
+                                               "testInsId": 1,
+                                               "testName": "complete blood picture-CBP",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 532,
+                                               "testInsId": 1,
+                                               "testName": "Complete urine Examination-CUE",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 533,
+                                               "testInsId": 1,
+                                               "testName": "Parasite V&F",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 534,
+                                               "testInsId": 1,
+                                               "testName": "USG-Abdomen",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 535,
+                                               "testInsId": 1,
+                                               "testName": "CXR",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 536,
+                                               "testInsId": 1,
+                                               "testName": "USG-Neck",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 537,
+                                               "testInsId": 1,
+                                               "testName": "EHC",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 538,
+                                               "testInsId": 1,
+                                               "testName": "Urine c/s(culture and senstivity)",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 539,
+                                               "testInsId": 1,
+                                               "testName": "Blood c/s(culture and senstivity)",
+                                               "testInstruction": "Instructions"
+                                               }
+                                               ]
+                                  }
+                                  ],
+                    "testList": []
+                    },
+                    {
+                    "cost": 200,
+                    "pkgId": 73,
+                    "pkgName": "Dr. Sai",
+                    "groupList": [
+                                  {
+                                  "cost": 200,
+                                  "grpId": 175,
+                                  "grpName": "Dr. Sai",
+                                  "testList": [
+                                               {
+                                               "cost": 200,
+                                               "testId": 525,
+                                               "testInsId": 1,
+                                               "testName": "CBP",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 526,
+                                               "testInsId": 1,
+                                               "testName": "X-RAY",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 527,
+                                               "testInsId": 1,
+                                               "testName": "C reactive protein(CRP)",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 528,
+                                               "testInsId": 1,
+                                               "testName": "Surgical profile (minor)",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 529,
+                                               "testInsId": 1,
+                                               "testName": "Surgical profile (major)",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 530,
+                                               "testInsId": 1,
+                                               "testName": "TKR(Package)",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 541,
+                                               "testInsId": 1,
+                                               "testName": "MRI",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 543,
+                                               "testInsId": 1,
+                                               "testName": "Vit D3",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 544,
+                                               "testInsId": 1,
+                                               "testName": "Vit B12",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 545,
+                                               "testInsId": 1,
+                                               "testName": "Uric acid",
+                                               "testInstruction": "Instructions"
+                                               },
+                                               {
+                                               "cost": 200,
+                                               "testId": 546,
+                                               "testInsId": 1,
+                                               "testName": "CT scan",
+                                               "testInstruction": "Instructions"
+                                               }
+                                               ]
+                                  }
+                                  ],
+                    "testList": []
+                    }
+                    ],
+        "group": [
+                  {
+                  "cost": 200,
+                  "grpId": 176,
+                  "grpName": "XRay",
+                  "testList": [
+                               {
+                               "cost": 200,
+                               "testId": 515,
+                               "testInsId": 1,
+                               "testName": "Hemogram",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 517,
+                               "testInsId": 1,
+                               "testName": "RFT-Renal function Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 518,
+                               "testInsId": 1,
+                               "testName": "LFT-Liver function Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 519,
+                               "testInsId": 1,
+                               "testName": "viral screen",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 520,
+                               "testInsId": 1,
+                               "testName": "CXR-Chest Xray",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 525,
+                               "testInsId": 1,
+                               "testName": "CBP",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 526,
+                               "testInsId": 1,
+                               "testName": "X-RAY",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 527,
+                               "testInsId": 1,
+                               "testName": "C reactive protein(CRP)",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 528,
+                               "testInsId": 1,
+                               "testName": "Surgical profile (minor)",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 530,
+                               "testInsId": 1,
+                               "testName": "TKR(Package)",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 531,
+                               "testInsId": 1,
+                               "testName": "complete blood picture-CBP",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 537,
+                               "testInsId": 1,
+                               "testName": "EHC",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 547,
+                               "testInsId": 1,
+                               "testName": "xray",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 300,
+                               "testId": 548,
+                               "testInsId": 1,
+                               "testName": "CXR-Chest Xray",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 150,
+                               "testId": 549,
+                               "testInsId": 1,
+                               "testName": "CT Brain - Plain",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 550,
+                               "testInsId": 1,
+                               "testName": "CT Brain Angiography",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 558,
+                               "testInsId": 1,
+                               "testName": "Blood Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 559,
+                               "testInsId": 1,
+                               "testName": "Sugar Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 560,
+                               "testInsId": 1,
+                               "testName": "Urine test",
+                               "testInstruction": "Instructions"
+                               }
+                               ]
+                  },
+                  {
+                  "cost": 200,
+                  "grpId": 177,
+                  "grpName": "CTScan",
+                  "testList": [
+                               {
+                               "cost": 200,
+                               "testId": 517,
+                               "testInsId": 1,
+                               "testName": "RFT-Renal function Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 518,
+                               "testInsId": 1,
+                               "testName": "LFT-Liver function Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 519,
+                               "testInsId": 1,
+                               "testName": "viral screen",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 520,
+                               "testInsId": 1,
+                               "testName": "CXR-Chest Xray",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 525,
+                               "testInsId": 1,
+                               "testName": "CBP",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 526,
+                               "testInsId": 1,
+                               "testName": "X-RAY",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 527,
+                               "testInsId": 1,
+                               "testName": "C reactive protein(CRP)",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 528,
+                               "testInsId": 1,
+                               "testName": "Surgical profile (minor)",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 530,
+                               "testInsId": 1,
+                               "testName": "TKR(Package)",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 537,
+                               "testInsId": 1,
+                               "testName": "EHC",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 150,
+                               "testId": 549,
+                               "testInsId": 1,
+                               "testName": "CT Brain - Plain",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 550,
+                               "testInsId": 1,
+                               "testName": "CT Brain Angiography",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 551,
+                               "testInsId": 1,
+                               "testName": "CT Scan PNS",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 552,
+                               "testInsId": 1,
+                               "testName": "CT NECK",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 553,
+                               "testInsId": 1,
+                               "testName": "CT CHEST",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 300,
+                               "testId": 554,
+                               "testInsId": 1,
+                               "testName": "CT SCAN WHOLE ABDOMEN",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 300,
+                               "testId": 555,
+                               "testInsId": 1,
+                               "testName": "CT SCAN LOWER ABDOMEN",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 300,
+                               "testId": 556,
+                               "testInsId": 1,
+                               "testName": "CT SCAN UPPER ABDOMEN",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 557,
+                               "testInsId": 1,
+                               "testName": "CT SCAN BREAST",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 558,
+                               "testInsId": 1,
+                               "testName": "Blood Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 559,
+                               "testInsId": 1,
+                               "testName": "Sugar Test",
+                               "testInstruction": "Instructions"
+                               }
+                               ]
+                  },
+                  {
+                  "cost": 200,
+                  "grpId": 178,
+                  "grpName": "Sample Collection Doc1",
+                  "testList": [
+                               {
+                               "cost": 200,
+                               "testId": 517,
+                               "testInsId": 1,
+                               "testName": "RFT-Renal function Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 518,
+                               "testInsId": 1,
+                               "testName": "LFT-Liver function Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 519,
+                               "testInsId": 1,
+                               "testName": "viral screen",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 520,
+                               "testInsId": 1,
+                               "testName": "CXR-Chest Xray",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 537,
+                               "testInsId": 1,
+                               "testName": "EHC",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 150,
+                               "testId": 549,
+                               "testInsId": 1,
+                               "testName": "CT Brain - Plain",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 200,
+                               "testId": 550,
+                               "testInsId": 1,
+                               "testName": "CT Brain Angiography",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 558,
+                               "testInsId": 1,
+                               "testName": "Blood Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 559,
+                               "testInsId": 1,
+                               "testName": "Sugar Test",
+                               "testInstruction": "Instructions"
+                               },
+                               {
+                               "cost": 250,
+                               "testId": 560,
+                               "testInsId": 1,
+                               "testName": "Urine test",
+                               "testInstruction": "Instructions"
+                               }
+                               ]
+                  }
+                  ],
+        "test": [
+                 {
+                 "cost": 200,
+                 "testId": 515,
+                 "testInsId": 1,
+                 "testName": "Hemogram",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 516,
+                 "testInsId": 1,
+                 "testName": "T3,T4,TSH-Thyroid Function List",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 517,
+                 "testInsId": 1,
+                 "testName": "RFT-Renal function Test",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 518,
+                 "testInsId": 1,
+                 "testName": "LFT-Liver function Test",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 519,
+                 "testInsId": 1,
+                 "testName": "viral screen",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 520,
+                 "testInsId": 1,
+                 "testName": "CXR-Chest Xray",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 521,
+                 "testInsId": 1,
+                 "testName": "USG",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 522,
+                 "testInsId": 1,
+                 "testName": "Widal",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 523,
+                 "testInsId": 1,
+                 "testName": "FBS-Fasting Blood Sugar",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 524,
+                 "testInsId": 1,
+                 "testName": "CHE",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 525,
+                 "testInsId": 1,
+                 "testName": "CBP",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 526,
+                 "testInsId": 1,
+                 "testName": "X-RAY",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 527,
+                 "testInsId": 1,
+                 "testName": "C reactive protein(CRP)",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 528,
+                 "testInsId": 1,
+                 "testName": "Surgical profile (minor)",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 529,
+                 "testInsId": 1,
+                 "testName": "Surgical profile (major)",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 530,
+                 "testInsId": 1,
+                 "testName": "TKR(Package)",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 531,
+                 "testInsId": 1,
+                 "testName": "complete blood picture-CBP",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 532,
+                 "testInsId": 1,
+                 "testName": "Complete urine Examination-CUE",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 533,
+                 "testInsId": 1,
+                 "testName": "Parasite V&F",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 534,
+                 "testInsId": 1,
+                 "testName": "USG-Abdomen",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 535,
+                 "testInsId": 1,
+                 "testName": "CXR",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 536,
+                 "testInsId": 1,
+                 "testName": "USG-Neck",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 537,
+                 "testInsId": 1,
+                 "testName": "EHC",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 538,
+                 "testInsId": 1,
+                 "testName": "Urine c/s(culture and senstivity)",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 539,
+                 "testInsId": 1,
+                 "testName": "Blood c/s(culture and senstivity)",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 540,
+                 "testInsId": 1,
+                 "testName": "ECG",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 541,
+                 "testInsId": 1,
+                 "testName": "MRI",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 542,
+                 "testInsId": 1,
+                 "testName": "Lipid Profile",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 543,
+                 "testInsId": 1,
+                 "testName": "Vit D3",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 544,
+                 "testInsId": 1,
+                 "testName": "Vit B12",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 545,
+                 "testInsId": 1,
+                 "testName": "Uric acid",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 546,
+                 "testInsId": 1,
+                 "testName": "CT scan",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 250,
+                 "testId": 547,
+                 "testInsId": 1,
+                 "testName": "xray",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 300,
+                 "testId": 548,
+                 "testInsId": 1,
+                 "testName": "CXR-Chest Xray",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 150,
+                 "testId": 549,
+                 "testInsId": 1,
+                 "testName": "CT Brain - Plain",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 550,
+                 "testInsId": 1,
+                 "testName": "CT Brain Angiography",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 250,
+                 "testId": 551,
+                 "testInsId": 1,
+                 "testName": "CT Scan PNS",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 552,
+                 "testInsId": 1,
+                 "testName": "CT NECK",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 250,
+                 "testId": 553,
+                 "testInsId": 1,
+                 "testName": "CT CHEST",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 300,
+                 "testId": 554,
+                 "testInsId": 1,
+                 "testName": "CT SCAN WHOLE ABDOMEN",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 300,
+                 "testId": 555,
+                 "testInsId": 1,
+                 "testName": "CT SCAN LOWER ABDOMEN",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 300,
+                 "testId": 556,
+                 "testInsId": 1,
+                 "testName": "CT SCAN UPPER ABDOMEN",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 200,
+                 "testId": 557,
+                 "testInsId": 1,
+                 "testName": "CT SCAN BREAST",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 250,
+                 "testId": 558,
+                 "testInsId": 1,
+                 "testName": "Blood Test",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 250,
+                 "testId": 559,
+                 "testInsId": 1,
+                 "testName": "Sugar Test",
+                 "testInstruction": "Instructions"
+                 },
+                 {
+                 "cost": 250,
+                 "testId": 560,
+                 "testInsId": 1,
+                 "testName": "Urine test",
+                 "testInstruction": "Instructions"
+                 }
+                 ]
+    },
+    "status": 1,
+    "msg": "success"
+}

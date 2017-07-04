@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <deployment defaultVersion="1280" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -11,36 +15,74 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" id="Pdx-ax-yfo" userLabel="Addition button">
-                        <rect key="frame" x="289" y="11" width="22" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                        <connections>
-                            <action selector="additionButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="3w6-Ha-RTb"/>
-                        </connections>
-                    </button>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example text here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F5q-cd-tFm">
-                        <rect key="frame" x="10" y="22" width="261" height="21"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locellbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hz0-Oi-ma7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(0)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5q-cd-tFm">
+                        <rect key="frame" x="10" y="22" width="266" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="yMv-RQ-OdI"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ycQ-BJ-LHx">
-                        <rect key="frame" x="10" y="5" width="261" height="21"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycQ-BJ-LHx">
+                        <rect key="frame" x="10" y="5" width="266" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="LhM-Td-WQ1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZw-9L-0CP" userLabel="Select Button">
+                        <rect key="frame" x="247" y="0.0" width="65" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="efl-he-8mU"/>
+                            <constraint firstAttribute="width" constant="65" id="wMD-dU-IiP"/>
+                        </constraints>
+                        <state key="normal" image="lounselect.png"/>
+                        <state key="selected" image="loselect.png"/>
+                        <connections>
+                            <action selector="selectButtonTapAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="mFd-ts-3Sy"/>
+                        </connections>
+                    </button>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="Hz0-Oi-ma7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0W0-4z-1pN"/>
+                    <constraint firstAttribute="trailing" secondItem="Hz0-Oi-ma7" secondAttribute="trailing" id="2Bd-ew-QVC"/>
+                    <constraint firstAttribute="bottom" secondItem="Hz0-Oi-ma7" secondAttribute="bottom" id="5bw-cV-m8l"/>
+                    <constraint firstAttribute="trailing" secondItem="bZw-9L-0CP" secondAttribute="trailing" constant="8" id="6Qu-tZ-GGZ"/>
+                    <constraint firstItem="bZw-9L-0CP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="89w-hu-GZE"/>
+                    <constraint firstAttribute="trailing" secondItem="F5q-cd-tFm" secondAttribute="trailing" constant="44" id="CYn-SL-UaD"/>
+                    <constraint firstAttribute="trailing" secondItem="ycQ-BJ-LHx" secondAttribute="trailing" constant="44" id="KgH-9l-5zZ"/>
+                    <constraint firstItem="ycQ-BJ-LHx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="WMl-Od-FjL"/>
+                    <constraint firstAttribute="bottom" secondItem="F5q-cd-tFm" secondAttribute="bottom" id="lkE-3f-VBa"/>
+                    <constraint firstItem="Hz0-Oi-ma7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mlZ-PG-cfi"/>
+                    <constraint firstItem="F5q-cd-tFm" firstAttribute="leading" secondItem="ycQ-BJ-LHx" secondAttribute="leading" id="mwz-Ha-2Fk"/>
+                    <constraint firstItem="ycQ-BJ-LHx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="zTS-GE-p9e"/>
+                </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="additionButton" destination="Pdx-ax-yfo" id="sHv-iT-1Md"/>
                 <outlet property="customTitleLabel" destination="ycQ-BJ-LHx" id="icX-iL-nXW"/>
                 <outlet property="detailedLabel" destination="F5q-cd-tFm" id="Rk1-Tx-zyC"/>
+                <outlet property="leadingConstraint" destination="zTS-GE-p9e" id="3A1-Pg-VIa"/>
+                <outlet property="selectButton" destination="bZw-9L-0CP" id="uvq-hP-oww"/>
             </connections>
+            <point key="canvasLocation" x="-37" y="-3"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="locellbg.png" width="1024" height="65"/>
+        <image name="loselect.png" width="65" height="44"/>
+        <image name="lounselect.png" width="65" height="44"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
 </document>

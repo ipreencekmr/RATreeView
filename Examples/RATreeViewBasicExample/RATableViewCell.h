@@ -19,13 +19,35 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RADataObject.h"
+
+@class RATableViewCell;
+
+@protocol RASelectCellAction <NSObject>
+
+-(void)didSelectRow:(RATableViewCell *)cell
+            atIndex:(NSInteger)index;
+
+@end
 
 @interface RATableViewCell : UITableViewCell
 
-@property (nonatomic, copy) void (^additionButtonTapAction)(id sender);
-@property (nonatomic) BOOL additionButtonHidden;
+@property (nonatomic, copy) void (^selectButtonTapAction)(id sender);
+@property (nonatomic) BOOL selectButtonHidden;
+@property (nonatomic) BOOL rowSelected;
 
-- (void)setupWithTitle:(NSString *)title detailText:(NSString *)detailText level:(NSInteger)level additionButtonHidden:(BOOL)additionButtonHidden;
-- (void)setAdditionButtonHidden:(BOOL)additionButtonHidden animated:(BOOL)animated;
+@property (nonatomic, assign) id<RASelectCellAction> delegate;
+
+- (void)setupWithTitle:(NSString *)title
+            detailText:(NSString *)detailText
+                 level:(NSInteger)level
+                nature:(LabObjNature)nature
+              selected:(BOOL)selected;
+
+- (void)setRowSelected:(BOOL)rowSelected
+              animated:(BOOL)animated;
+
+- (void)setSelectButtonHidden:(BOOL)selectButtonHidden
+                     animated:(BOOL)animated;
 
 @end

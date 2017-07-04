@@ -26,82 +26,93 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *detailedLabel;
 @property (weak, nonatomic) IBOutlet UILabel *customTitleLabel;
-@property (weak, nonatomic) IBOutlet UIButton *additionButton;
+@property (weak, nonatomic) IBOutlet UIButton *selectButton;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *leadingConstraint;
 
 @end
 
 @implementation RATableViewCell
 
-- (void)awakeFromNib
-{
-  [super awakeFromNib];
-  
-  self.selectedBackgroundView = [UIView new];
-  self.selectedBackgroundView.backgroundColor = [UIColor clearColor];
-  
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    self.selectedBackgroundView = [UIView new];
+    self.selectedBackgroundView.backgroundColor = [UIColor clearColor];
 }
 
-- (void)prepareForReuse
-{
-  [super prepareForReuse];
-  
-  self.additionButtonHidden = NO;
+- (void)prepareForReuse {
+    [super prepareForReuse];
+    self.selectButtonHidden = NO;
+    self.rowSelected = NO;
 }
 
-
-- (void)setupWithTitle:(NSString *)title detailText:(NSString *)detailText level:(NSInteger)level additionButtonHidden:(BOOL)additionButtonHidden
-{
-  self.customTitleLabel.text = title;
-  self.detailedLabel.text = detailText;
-  self.additionButtonHidden = additionButtonHidden;
+- (void)setupWithTitle:(NSString *)title
+            detailText:(NSString *)detailText
+                 level:(NSInteger)level
+                nature:(LabObjNature)nature
+              selected:(BOOL)selected {
+    
+    self.customTitleLabel.text = title;
+    self.detailedLabel.text = detailText;
+    self.selectButton.selected = selected;
+    self.customTitleLabel.textColor = [UIColor blackColor];
+    self.leadingConstraint.constant = 10.0f + 20 * level;
+    
+    switch (nature) {
+        case kLabObjNatureTest:
+            self.customTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Regular" size:17.0f];
+            break;
+        case kLabObjNatureGroup:
+            self.customTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Regular" size:17.0f];
+            break;
+        case kLabObjNaturePackage:
+            self.customTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Medium" size:17.0f];
+            break;
+        default:
+            break;
+    }
   
-  if (level == 0) {
-    self.detailTextLabel.textColor = [UIColor blackColor];
-  }
-  
-  if (level == 0) {
-    self.backgroundColor = UIColorFromRGB(0xF7F7F7);
-  } else if (level == 1) {
-    self.backgroundColor = UIColorFromRGB(0xD1EEFC);
-  } else if (level >= 2) {
-    self.backgroundColor = UIColorFromRGB(0xE0F8D8);
-  }
-  
-  CGFloat left = 11 + 20 * level;
-  
-  CGRect titleFrame = self.customTitleLabel.frame;
-  titleFrame.origin.x = left;
-  self.customTitleLabel.frame = titleFrame;
-  
-  CGRect detailsFrame = self.detailedLabel.frame;
-  detailsFrame.origin.x = left;
-  self.detailedLabel.frame = detailsFrame;
+    if (level >= 2) {
+        self.selectButton.hidden = true;
+    }
 }
-
 
 #pragma mark - Properties
 
-- (void)setAdditionButtonHidden:(BOOL)additionButtonHidden
-{
-  [self setAdditionButtonHidden:additionButtonHidden animated:NO];
+- (void)setRowSelected:(BOOL)rowSelected {
+    [self setRowSelected:rowSelected animated:NO];
 }
 
-- (void)setAdditionButtonHidden:(BOOL)additionButtonHidden animated:(BOOL)animated
-{
-  _additionButtonHidden = additionButtonHidden;
-  [UIView animateWithDuration:animated ? 0.2 : 0 animations:^{
-    self.additionButton.hidden = additionButtonHidden;
-  }];
+- (void)setRowSelected:(BOOL)rowSelected
+              animated:(BOOL)animated {
+    _rowSelected = rowSelected;
+    [UIView animateWithDuration:animated ? 0.2 : 0 animations:^{
+        self.selectButton.selected = rowSelected;
+    }];
 }
 
+- (void)setSelectButtonHidden:(BOOL)selectButtonHidden {
+    [self setSelectButtonHidden:selectButtonHidden animated:NO];
+}
+
+- (void)setSelectButtonHidden:(BOOL)selectButtonHidden
+                     animated:(BOOL)animated {
+    _selectButtonHidden = selectButtonHidden;
+    [UIView animateWithDuration:animated ? 0.2 : 0 animations:^{
+        self.selectButton.hidden = selectButtonHidden;
+    }];
+}
 
 #pragma mark - Actions
 
-- (IBAction)additionButtonTapped:(id)sender
-{
-  if (self.additionButtonTapAction) {
-    self.additionButtonTapAction(sender);
-  }
+- (IBAction)selectButtonTapAction:(id)sender {
+    
+    if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectRow:atIndex:)]) {
+        [self.delegate didSelectRow:self atIndex:0];
+    }
+    
+    if (self.selectButtonTapAction) {
+        self.selectButtonTapAction(sender);
+    }
 }
 
 @end
